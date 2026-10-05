@@ -2,6 +2,8 @@
 
 A personal learning project exploring how lightweight automation can make procurement requests easier to collect, organize, and review.
 
+![Herramientas](Tools.png)
+
 ## Project structure
 
 ```text
