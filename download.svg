@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1060" viewBox="0 0 1600 1060" role="img" aria-labelledby="title desc">
+  <title id="title">Tools and technologies used in the procurement project</title>
+  <desc id="desc">A clean three by three list of the tools used in version one and the current procurement demo.</desc>
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f9fc"/><stop offset="1" stop-color="#edf3f8"/></linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#21344d" flood-opacity=".08"/></filter>
+    <style>
+      text{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#172b43}.muted{fill:#63758b}.eyebrow{font-size:15px;font-weight:750;letter-spacing:.14em}.title{font-size:45px;font-weight:760;letter-spacing:-.035em}.subtitle{font-size:19px}.category{font-size:12px;font-weight:760;letter-spacing:.12em}.tool{font-size:23px;font-weight:720;letter-spacing:-.02em}.detail{font-size:16px}
+    </style>
+  </defs>
+  <rect width="1600" height="1060" fill="url(#page)"/>
+  <circle cx="1460" cy="80" r="230" fill="#dbeafe" opacity=".48"/>
+  <circle cx="110" cy="1010" r="190" fill="#d1fae5" opacity=".42"/>
+
+  <text x="92" y="82" class="eyebrow" fill="#168b80">PROCUREMENT OPERATIONS · PROJECT STACK</text>
+  <text x="92" y="143" class="title">Tools &amp; Technologies</text>
+  <text x="95" y="181" class="subtitle muted">From the first form-based version to the current demo</text>
+
+  <!-- card 1 -->
+  <g filter="url(#shadow)"><rect x="90" y="235" width="450" height="205" rx="22" fill="#ffffff" stroke="#dce5ef"/><rect x="90" y="235" width="6" height="205" rx="3" fill="#229ed9"/></g>
+  <rect x="119" y="265" width="52" height="52" rx="15" fill="#e0f2fe"/><path d="m132 291 27-12-8 28-7-10-8 5 1-9z" fill="none" stroke="#168ac1" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="190" y="278" class="category" fill="#168ac1">MESSAGING</text><text x="190" y="309" class="tool">Telegram Bot API</text><text x="120" y="377" class="detail muted">Request intake and conversation</text>
+
+  <!-- card 2 -->
+  <g filter="url(#shadow)"><rect x="575" y="235" width="450" height="205" rx="22" fill="#ffffff" stroke="#dce5ef"/><rect x="575" y="235" width="6" height="205" rx="3" fill="#22a06b"/></g>
+  <rect x="604" y="265" width="52" height="52" rx="15" fill="#dcfce7"/><path d="M633 273 616 296h13l-2 13 18-25h-14z" fill="none" stroke="#18814f" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="675" y="278" class="category" fill="#18814f">DATABASE &amp; BACKEND</text><text x="675" y="309" class="tool">Supabase</text><text x="605" y="377" class="detail muted">Postgres · Edge Functions · Realtime</text>
+
+  <!-- card 3 -->
+  <g filter="url(#shadow)"><rect x="1060" y="235" width="450" height="205" rx="22" fill="#ffffff" stroke="#dce5ef"/><rect x="1060" y="235" width="6" height="205" rx="3" fill="#3976e8"/></g>
+  <rect x="1089" y="265" width="52" height="52" rx="15" fill="#e0eaff"/><text x="1100" y="299" font-size="18" font-weight="800" fill="#3668ca">R + V</text>
+  <text x="1160" y="278" class="category" fill="#3668ca">WEB DASHBOARD</text><text x="1160" y="309" class="tool">React + Vite</text><text x="1090" y="377" class="detail muted">Request list and review screen</text>
+
+  <!-- card 4 -->
+  <g filter="url(#shadow)"><rect x="90" y="470" width="450" height="205" rx="22" fill="#ffffff" stroke="#dce5ef"/><rect x="90" y="470" width="6" height="205" rx="3" fill="#7560cf"/></g>
+  <rect x="119" y="500" width="52" height="52" rx="15" fill="#ede9fe"/><path d="M135 512c0-6 19-6 19 0v22c0 6-19 6-19 0zm0 3c0 6 19 6 19 0m-19 8c0 6 19 6 19 0" fill="none" stroke="#6652bd" stroke-width="2"/>
+  <text x="190" y="513" class="category" fill="#6652bd">LOCAL AI</text><text x="190" y="544" class="tool">Ollama + Qwen3 0.6B</text><text x="120" y="612" class="detail muted">Runs locally on the developer’s Mac</text>
+
+  <!-- card 5 -->
+  <g filter="url(#shadow)"><rect x="575" y="470" width="450" height="205" rx="22" fill="#ffffff" stroke="#dce5ef"/><rect x="575" y="470" width="6" height="205" rx="3" fill="#078b91"/></g>
+  <rect x="604" y="500" width="52" height="52" rx="15" fill="#cffafe"/><text x="616" y="533" font-size="17" font-weight="800" fill="#087a80">JS</text>
+  <text x="675" y="513" class="category" fill="#087a80">LOCAL INTEGRATION</text><text x="675" y="544" class="tool">Node.js</text><text x="605" y="612" class="detail muted">Small bridge to the Ollama API</text>
+
+  <!-- card 6 -->
+  <g filter="url(#shadow)"><rect x="1060" y="470" width="450" height="205" rx="22" fill="#ffffff" stroke="#dce5ef"/><rect x="1060" y="470" width="6" height="205" rx="3" fill="#f28c2e"/></g>
+  <rect x="1089" y="500" width="52" height="52" rx="15" fill="#ffedd5"/><path d="M1101 523h27m-17-9 9 9-9 9" fill="none" stroke="#d8751f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1160" y="513" class="category" fill="#c66b1c">TEMPORARY TUNNEL</text><text x="1160" y="544" class="tool">Cloudflare Quick Tunnel</text><text x="1090" y="612" class="detail muted">Connects Supabase to the local bridge</text>
+
+  <!-- card 7 -->
+  <g filter="url(#shadow)"><rect x="90" y="705" width="450" height="205" rx="22" fill="#ffffff" stroke="#dce5ef"/><rect x="90" y="705" width="6" height="205" rx="3" fill="#35a853"/></g>
+  <rect x="119" y="735" width="52" height="52" rx="15" fill="#dcfce7"/><path d="M135 746h20v20h-20zM135 773h20" fill="none" stroke="#268542" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="190" y="748" class="category" fill="#268542">VERSION 1 · FORM AUTOMATION</text><text x="190" y="779" class="tool">Google Forms + Apps Script</text><text x="120" y="847" class="detail muted">The project’s first iteration</text>
+
+  <!-- card 8 -->
+  <g filter="url(#shadow)"><rect x="575" y="705" width="450" height="205" rx="22" fill="#ffffff" stroke="#dce5ef"/><rect x="575" y="705" width="6" height="205" rx="3" fill="#2b59c3"/></g>
+  <rect x="604" y="735" width="52" height="52" rx="15" fill="#dbeafe"/><path d="M630 748a11 11 0 1 0 10 16" fill="none" stroke="#2b59c3" stroke-width="2.5" stroke-linecap="round"/><path d="M636 746v8h-8" fill="none" stroke="#2b59c3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="675" y="748" class="category" fill="#2b59c3">WEB HOSTING</text><text x="675" y="779" class="tool">Netlify</text><text x="605" y="847" class="detail muted">Publishes the web dashboard</text>
+
+  <!-- card 9 -->
+  <g filter="url(#shadow)"><rect x="1060" y="705" width="450" height="205" rx="22" fill="#ffffff" stroke="#dce5ef"/><rect x="1060" y="705" width="6" height="205" rx="3" fill="#26364b"/></g>
+  <rect x="1089" y="735" width="52" height="52" rx="15" fill="#e7edf4"/><path d="M1101 745h14a7 7 0 0 1 0 14h-14v-14zm0 14h14a7 7 0 0 1 0 14h-14v-14z" fill="none" stroke="#30465e" stroke-width="2.1"/>
+  <text x="1160" y="748" class="category" fill="#30465e">VERSION CONTROL</text><text x="1160" y="779" class="tool">Git + GitHub</text><text x="1090" y="847" class="detail muted">Project history and portfolio</text>
+
+  <text x="92" y="980" class="detail muted">Current demo: Telegram · Supabase · local Ollama · React dashboard</text>
+  <text x="1508" y="980" text-anchor="end" class="category" fill="#70839b">TOOLS USED</text>
+</svg>
