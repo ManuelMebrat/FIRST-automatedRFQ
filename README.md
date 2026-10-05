@@ -1,4 +1,4 @@
-# Procurement Operations Demo
+# Procurement Operations 
 
 A personal learning project exploring how lightweight automation can make procurement requests easier to collect, organize, and review.
 
