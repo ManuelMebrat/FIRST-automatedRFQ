@@ -81,7 +81,7 @@ The solution should stay practical: keep the request easy to complete, show the 
 
 ## Demo
 
-- **Web dashboard:** [lighthearted-crepe-5500de.netlify.app](https://solicitudesprimerdemo.netlify.app/)
+- **Web dashboard:** [FirstWEPAPP](https://solicitudesprimerdemo.netlify.app/)
 - **Telegram bot:** `@soyla1bot`
 
 This is a public demo with sample data. Do not enter real purchasing, supplier, or personal information.
